@@ -37,3 +37,9 @@ Add a new key-value to the payload dictionary in the application.
 Update the deployment: `zappa update dev`
 
 Reload the URL, your change should be visible
+
+## Cleaning up the application
+
+Run: `zappa undeploy dev`
+
+This will remove the AWS resources from the PreProduction account. Don't leave things lying around!
