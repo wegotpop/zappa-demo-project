@@ -1,0 +1,7 @@
+dev:
+  s3_bucket: pop-zappa-deployments-staging
+  app_function: "app.app.app"
+  aws_region: eu-west-1
+  profile_name: PreProdTerraformer
+  project_name: POPZappaDemo
+  keep_warm: false
